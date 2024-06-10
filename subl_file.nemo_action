@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Open File in Sublime
+Comment=Opens the file in sublime
+Name[de]=Datei in Sublime öffnen
+Comment[de]=Öffnet die Datei in Sublime
+Exec=subl --launch-or-new-window %F 
+Selection=notnone
+Extensions=nodirs;
+Icon-Name=sublime-text

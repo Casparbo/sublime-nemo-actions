@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Open Folder in Sublime
+Comment=Opens the entire folder in sublime
+Name[de]=Ordner in Sublime öffnen
+Comment[de]=Öffnet den ganzen Ordner in Sublime
+Exec=subl --launch-or-new-window %F 
+Selection=s
+Extensions=dir;
+Icon-Name=sublime-text
